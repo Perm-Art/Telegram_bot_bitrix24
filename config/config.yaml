@@ -1,0 +1,25 @@
+telegram:
+  token: "TELEGRAM_TOKEN_FROM_ENV"
+  allowed_users: []
+
+yandex:
+  api_key: "YANDEX_API_KEY_FROM_ENV"
+  folder_id: "YANDEX_FOLDER_ID_FROM_ENV"
+  model: "yandexgpt-5.1/latest"
+  base_url: "https://ai.api.cloud.yandex.net/v1"
+
+database:
+  host: "DB_HOST_FROM_ENV"
+  port: 5432
+  name: "DB_NAME_FROM_ENV"
+  user: "DB_USER_FROM_ENV"
+  password: "DB_PASSWORD_FROM_ENV"
+
+parser:
+  base_url: "https://apidocs.bitrix24.ru/"
+  max_pages: 100
+  update_interval_hours: 24
+
+logging:
+  level: "INFO"
+  file: "logs/bot.log"
